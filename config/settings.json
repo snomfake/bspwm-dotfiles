@@ -1,0 +1,46 @@
+{
+    // options
+    "breadcrumbs.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.fontSize": 16,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.renderWhitespace": "none",
+    "editor.minimap.enabled": false,
+    "editor.selectionHighlight": false,
+    "editor.parameterHints.enabled": false,
+    "editor.cursorSurroundingLines": 10,
+    "editor.glyphMargin": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.snippetSuggestions": "none",
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "extensions.ignoreRecommendations": true,
+    "window.zoomLevel": 0.5,
+    "window.menuBarVisibility": "hidden",
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.editor.limit.value": 2,
+
+    // fonts
+    "editor.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+
+    // ui
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.colorTheme": "Catppuccin Mocha",
+
+    // plugins
+    "apc.font.family": "JetBrains Mono",
+    "apc.stylesheet": {
+        ".decorationsOverviewRuler": "display: none !important",
+        ".title-actions": "display: none !important",
+    },
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim",
+}

@@ -1,0 +1,34 @@
+#!/bin/bash
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# bspwm config
+bspc rule -a mvp state=floating
+bspc rule -a feh state=floating
+
+bspc monitor -d 1 2 3 4
+
+bspc config border_width      		3
+bspc config window_gap        		10
+
+bspc config focused_border_color  	"#89b4fa"
+bspc config normal_border_color 	"#1f222b"
+
+bspc config single_monocle	        true
+bspc config borderless_monocle   	true
+bspc config split_ratio           	0.5
+bspc config focus_follows_pointer 	true
+bspc config pointer_modifier	  	super
+
+# other
+xsetroot -cursor_name left_ptr &
+xset s off -dpms
+setxkbmap us,ru -option "grp:alt_shift_toggle"
+
+# autostart
+$HOME/.config/bspwm/resol.sh
+$HOME/.config/polybar/launch.sh &
+
+telegram-desktop -startintray &
+dunst &
+flameshot &
