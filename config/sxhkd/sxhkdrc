@@ -20,11 +20,19 @@ XF86AudioRaiseVolume
 
 # file manager
 super + e
-  thunar
+  nemo
 
 # launcher
 super + p
   rofi -show drun
+
+# calendar
+super + c
+  gsimplecal
+
+# calendar
+super + v
+  pavucontrol
 
 # restart sxhkd
 super + r
