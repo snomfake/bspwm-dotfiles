@@ -45,6 +45,15 @@ function install_spicefy() {
 	spicetify config color_scheme CatppuccinMocha
 }
 
+function reboot_sys() {
+	echo "The PC will reboot through:"
+	for i in 3 2 1; do
+		echo $i
+		sleep 1
+	done
+	reboot
+}
+
 clear
 cat <<EOF
 
@@ -77,18 +86,20 @@ fi
 # install spicefy
 clear
 echo -e "\nInstall spicefy? (y[yes], n[no]): "
-read resp
-if [[ $resp == "y" || $resp == "yes" ]]; then
+read resp_2
+if [[ $resp_2 == "y" || $resp_2 == "yes" ]]; then
 	install_spicefy
-elif [[ $resp == "n" || $resp == "no" ]]; then 
+elif [[ $resp_2 == "n" || $resp_2 == "no" ]]; then 
 	echo "Done!"
 	exit
 fi
 
-echo "Done!"
-echo "The PC will reboot through:"
-for i in 3 2 1; do
-	echo $i
-	sleep 1
-done
-#reboot
+# reboot pc
+echo -e "\nYou want reboot system now? (y[yes], n[no]): "
+read resp_3
+if [[ $resp_3 == "y" || $resp_3 == "yes" ]]; then
+	reboot_sys
+elif [[ $resp_3 == "n" || $resp_3 == "no" ]]; then 
+	echo "Done!"
+	exit
+fi
