@@ -15,3 +15,8 @@
 | Notify | dunst |
 
 </br>
+
+
+<h1 align="center"> :camera: Gallery </h1>
+![gallery](screenshots/2.png)
+![gallery](screenshots/3.png)
