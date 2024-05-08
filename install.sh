@@ -11,6 +11,7 @@ function install_bspwm() {
 	# copy config files
 	mkdir $HOME/.config
 	cp -r ./config/* $HOME/.config/
+  cp -r ./wallpapers $HOME/.config/bspwm/
 	
 	# copy themes/icons/fonts
 	mkdir $HOME/.themes

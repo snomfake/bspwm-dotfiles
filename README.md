@@ -1,6 +1,16 @@
 <!-- title -->
 <h1 align="center">:snowflake: BSPWM DOTFILES :snowflake:</h1>
 
+</br>
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/snomfake/bspwm-dotfiles?style=for-the-badge">
+  <img src="https://img.shields.io/github/repo-size/snomfake/bspwm-dotfiles?style=for-the-badge">
+  </br>
+</p>
+
+</br>
+
 <!-- about -->
 <img align="right" src="/screenshots/1.png" width="500px">
 </br>
@@ -35,6 +45,6 @@ chmod u+x ./install.sh
 <!-- warning -->
 | :warning: WARNING :warning: |
 | :-------------------------: |
-| THIS CONFIGURATION IS DESIGNED FOR **1152X864** MONITORS. |
-| ALSO BEFORE STARTING THE INSTALLER CHANGE THE **xf86-video-ati** DRIVERS FOR YOUR GPU. |
-| In addition this builder adds configuration for the **bash** shell and not **zsh**!!! |
+| This configuration is designed for **1152X864** monitors! |
+| Also before starting the installer change the **xf86-video-ati** drivers for your GPU! |
+| In addition this builder adds configuration for the **bash** shell and not **zsh**! |
