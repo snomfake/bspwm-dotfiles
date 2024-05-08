@@ -18,14 +18,14 @@
 </br>
 
 <!-- gallery -->
-<h2 align="center">:camera: Gallery</h1>
+<h2 align="center">:camera: Gallery</h2>
 
 ![gallery](/screenshots/2.png)
 ![gallery](/screenshots/3.png)
 ![gallery](/screenshots/4.png)
 
 <!-- installation -->
-<h2 align="center">:floppy_disk: Installation</h1>
+<h2 align="center">:floppy_disk: Installation</h2>
 
 ```bash
 git clone https://github.com/snomfake/bspwm-dotfiles.git && cd bspwm-dotfiles
@@ -36,12 +36,12 @@ chmod u+x ./install.sh
 <table align="center">
    <tr>
       <th align="center">
-         <sup>:warning: WARNING :warning:</sup>
+         <h2>:warning: WARNING :warning:</h2>
       </th>
    </tr>
    <tr>
       <td align="center">
         THIS CONFIGURATION IS DESIGNED FOR 1920X1080 MONITORS.
-        ALSO BEFORE STARTING THE INSTALLER CHANGE THE **xf86-video-ati** DRIVERS FOR YOUR GPU.
+        ALSO BEFORE STARTING THE INSTALLER CHANGE THE <b>xf86-video-ati</b> DRIVERS FOR YOUR GPU.
    </tr>
 </table>
