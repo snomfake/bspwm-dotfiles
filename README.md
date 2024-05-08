@@ -33,7 +33,7 @@ chmod u+x ./install.sh
 ./install.sh
 ```
 <!-- warning -->
-<h2 align="center">:warning: WARNING :warning:</h2>
-<h3 align="center">THIS CONFIGURATION IS DESIGNED FOR 1920X1080 MONITORS.
+<h4 align="center">:warning: WARNING :warning:</h2>
+<p align="center">THIS CONFIGURATION IS DESIGNED FOR 1152X864 MONITORS.
 ALSO BEFORE STARTING THE INSTALLER CHANGE THE <b>xf86-video-ati</b> DRIVERS FOR YOUR GPU.
-</h3>
+</p>
