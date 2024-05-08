@@ -10,7 +10,7 @@
 | Distro | Arch Linux |
 | WM | bspwm |
 | Panel | Polybar |
-| Terminal | kitty |
+| Terminal | alacritty |
 | Shell | zsh |
 | Launcher | rofi |
 | Notify | dunst |
@@ -35,4 +35,6 @@ chmod u+x ./install.sh
 <!-- warning -->
 | :warning: WARNING :warning: |
 | :-------------------------: |
-| THIS CONFIGURATION IS DESIGNED FOR 1152X864 MONITORS. ALSO BEFORE STARTING THE INSTALLER CHANGE THE **xf86-video-ati** DRIVERS FOR YOUR GPU. |
+| THIS CONFIGURATION IS DESIGNED FOR **1152X864** MONITORS. |
+| ALSO BEFORE STARTING THE INSTALLER CHANGE THE **xf86-video-ati** DRIVERS FOR YOUR GPU. |
+| In addition this builder adds configuration for the **bash** shell and not **zsh**!!! |
