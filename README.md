@@ -44,6 +44,6 @@ chmod u+x ./install.sh
 ```
 <!-- warning -->
 <h2 align="center">:warning: WARNING :warning:</h2>
-This configuration is designed for **1152X864** monitors!
-Also before starting the installer change the **xf86-video-ati** drivers for your GPU!
-In addition this builder adds configuration for the **bash** shell and not **zsh**!
+This configuration is designed for **1152X864** monitors!</br>
+Also before starting the installer change the **xf86-video-ati** drivers for your GPU!</br>
+In addition this builder adds configuration for the **bash** shell and not **zsh**!</br>
