@@ -1,6 +1,6 @@
 # terminal
 super + Return
-  kitty
+  alacritty
 
 # screenshot
 @Print
@@ -24,15 +24,11 @@ super + e
 
 # launcher
 super + p
-  rofi -show drun
+  $HOME/.config/rofi/run.sh launcher
 
-# calendar
-super + c
-  gsimplecal
-
-# calendar
-super + v
-  pavucontrol
+# launcher
+super + o
+  $HOME/.config/rofi/run.sh powermenu
 
 # restart sxhkd
 super + r
