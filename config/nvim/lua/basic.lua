@@ -11,6 +11,8 @@ vim.opt.wrap = false
 vim.opt.iskeyword:append("-")
 vim.opt.laststatus = 3
 vim.opt.swapfile = false
+vim.opt.termguicolors = true
+vim.opt.cursorline = true
 
 -- mappings
 vim.keymap.set("n", "db", "vb\"_d")
@@ -132,15 +134,21 @@ require("lazy").setup({
   {
     "neovim/nvim-lspconfig",
     dependencies = {
+      "williamboman/mason.nvim",
       "hrsh7th/nvim-cmp",
       "hrsh7th/cmp-nvim-lsp",
       "onsails/lspkind.nvim"
     },
     config = function()
-      require("lspconfig")['gopls'].setup({
-        capabilities = vim.lsp.protocol.make_client_capabilities(),
-        cmd = { "gopls", "serve" }
-      })
+      require("mason").setup({})
+
+      local servers = { "gopls" }
+
+      for _, server in ipairs(servers) do
+        require("lspconfig")[server].setup({
+          capabilities = vim.lsp.protocol.make_client_capabilities(),
+        })
+      end
 
       local cmp = require("cmp")
       cmp.setup({
@@ -160,6 +168,38 @@ require("lazy").setup({
           })
         }
       })
+    end
+  },
+  {
+    "nvim-lualine/lualine.nvim",
+    dependencies = {
+      "nvim-tree/nvim-web-devicons"
+    },
+    config = function()
+      require("lualine").setup({
+        options = {
+          theme = "horizon",
+          section_separators = { left = '', right = '' }
+        },
+        sections = {
+          lualine_a = {
+            { "mode", icon = "󰇴" }
+          },
+          lualine_b = { "branch", "diagnostics" },
+          lualine_c = {},
+          lualine_x = {},
+          lualine_y = {},
+          lualine_z = {
+            { "location", icon = "󰆌" }
+          }
+        }
+      })
+    end
+  },
+  {
+    "numToStr/Comment.nvim",
+    config = function()
+      require("Comment").setup({})
     end
   }
 })
