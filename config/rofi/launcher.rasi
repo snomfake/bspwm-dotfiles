@@ -11,18 +11,17 @@
     alt-color: #1e1e2e;
     wbg-color: #1e1e2e;
     w-border: 3px solid;
-    w-border-color: #89b4fa;
+    w-border-color: #7899fa;
     w-padding: 12px;
 }
 
 configuration {
     modi: "drun";
-    show-icons: true;
     display-drun: " ";
 }
 
 listview {
-    columns: 2;
+    columns: 1;
     lines: 7;
     fixed-height: true;
     fixed-columns: true;
@@ -36,7 +35,8 @@ window {
     location: north west;
     x-offset: 10px;
     y-offset: 40px;
-    width: 400px;
+    width: 300px;
+    height: 300px;
     background-color: @b-color;
     border: @w-border;
     border-color: @w-border-color;

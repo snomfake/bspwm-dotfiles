@@ -5,10 +5,8 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 # rules
 bspc rule -a mpv state=floating
 bspc rule -a feh state=floating
-bspc rule -a Code state=floating rectangle=900x650+125+107 desktop='^1' follow=off
-bspc rule -a Pavucontrol state=floating rectangle=400x300+712+40 desktop='^1' follow=off
-bspc rule -a firefox desktop='^2' follow=off
-bspc rule -a Spotify desktop='^3' follow=off
+bspc rule -a firefox desktop='^2'
+bspc rule -a Spotify desktop='^3'
 
 # workspaces
 bspc monitor -d 1 2 3 4

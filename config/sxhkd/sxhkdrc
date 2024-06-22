@@ -4,7 +4,7 @@ super + Return
 
 # screenshot
 @Print
-  flameshot gui
+  scrot -s -e 'xclip -selection clipboard -t image/png -i $f'
 
 # mute volume
 XF86AudioMute
@@ -18,9 +18,17 @@ XF86AudioLowerVolume
 XF86AudioRaiseVolume
   $HOME/.config/bspwm/volume.sh up
 
-# file manager
-super + e
-  nemo
+# next sound
+XF86AudioNext
+  playerctl next
+
+# prev sound
+XF86AudioPrev
+  playerctl previous
+
+# pause/start sound
+XF86AudioPlay
+  playerctl play-pause
 
 # launcher
 super + p
