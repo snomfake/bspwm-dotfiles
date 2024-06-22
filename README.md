@@ -23,13 +23,13 @@
 </br>
 
 <!-- gallery -->
-// :camera: Gallery
+## :camera: Gallery
 
 ![gallery](/screenshots/2.png)
 ![gallery](/screenshots/3.png)
 
 <!-- installation -->
-// :floppy_disk: Installation
+## :floppy_disk: Installation
 
 ```bash
 git clone https://github.com/snomfake/bspwm-dotfiles.git && cd bspwm-dotfiles
@@ -37,7 +37,7 @@ chmod u+x ./install.sh
 ./install.sh
 ```
 
-// :keyboard: Keymaps
+## :keyboard: Keymaps
 
 | Keys | Function |
 | :--: | :------: |
