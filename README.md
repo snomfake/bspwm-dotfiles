@@ -20,6 +20,8 @@
 | Launcher | rofi |
 | Notify | dunst |
 
+</br>
+
 <!-- gallery -->
 <h3 align="left">:camera: Gallery</h3>
 
@@ -59,4 +61,6 @@ chmod u+x ./install.sh
 > [!WARNING]
 > Modify the `install.sh` file before installation and customize it to your pc 
 
-<h5 align="left">Also see <a href="https://github.com/snomfake/nvim-config.git">Nvim Config</a></h5>
+> [!NOTE]
+> Modify the `install.sh` file before installation and customize it to your pc 
+> Also see <a href="https://github.com/snomfake/nvim-config.git">Nvim Config</a>
