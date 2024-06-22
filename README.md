@@ -20,17 +20,16 @@
 | Launcher | rofi |
 | Notify | dunst |
 
-</hr>
 </br>
 
 <!-- gallery -->
-<h3 align="left">:camera: Gallery</h3>
+// :camera: Gallery
 
 ![gallery](/screenshots/2.png)
 ![gallery](/screenshots/3.png)
 
 <!-- installation -->
-<h3 align="left">:floppy_disk: Installation</h3>
+// :floppy_disk: Installation
 
 ```bash
 git clone https://github.com/snomfake/bspwm-dotfiles.git && cd bspwm-dotfiles
@@ -38,7 +37,7 @@ chmod u+x ./install.sh
 ./install.sh
 ```
 
-<h3 align="left">:keyboard: Keymaps</h3>
+// :keyboard: Keymaps
 
 | Keys | Function |
 | :--: | :------: |
@@ -58,6 +57,8 @@ chmod u+x ./install.sh
 | `XF86AudioPrev` | Previous Media |
 | `XF86AudioPlay` | Play/Pause Media |
 | `Print` | Make Screenshot |
+
+</br>
 
 > [!WARNING]
 > Modify the `install.sh` file before installation and customize it to your pc 
