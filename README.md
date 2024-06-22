@@ -31,6 +31,9 @@
 <!-- installation -->
 ## :floppy_disk: Installation
 
+> [!WARNING]
+> Modify the `install.sh` file before installation and customize it to your pc 
+
 ```bash
 git clone https://github.com/snomfake/bspwm-dotfiles.git && cd bspwm-dotfiles
 chmod u+x ./install.sh
@@ -60,8 +63,6 @@ chmod u+x ./install.sh
 
 </br>
 
-> [!WARNING]
-> Modify the `install.sh` file before installation and customize it to your pc 
 
 > [!NOTE]
 > Also see <a href="https://github.com/snomfake/nvim-config.git">Nvim Config</a>
