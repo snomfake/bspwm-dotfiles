@@ -20,6 +20,7 @@
 | Launcher | rofi |
 | Notify | dunst |
 
+</hr>
 </br>
 
 <!-- gallery -->
@@ -62,5 +63,4 @@ chmod u+x ./install.sh
 > Modify the `install.sh` file before installation and customize it to your pc 
 
 > [!NOTE]
-> Modify the `install.sh` file before installation and customize it to your pc 
 > Also see <a href="https://github.com/snomfake/nvim-config.git">Nvim Config</a>
